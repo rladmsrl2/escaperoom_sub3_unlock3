@@ -1,0 +1,314 @@
+*{margin: 0; padding: 0}
+ul{list-style: none;}
+a{text-decoration: none; color: #fff;}
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 24px;
+  line-height: 23px;
+  color: #fff;
+  background-color: #000;
+}
+/*header 시작*/
+#header{
+ height: 265px;
+ width: 100%;
+ top: 0;
+ left: 0;
+ position: absolute;
+}
+.header_bor{
+  height: 265px;
+  border-bottom: 3px solid #5a5a5a;
+}
+.header_inner{ /*1320px*/
+  width: 1320px;
+  margin: auto;
+  padding-top: 58px;
+  position: relative;
+}
+.header_inner h1{ /*logo*/
+  display: block;
+  text-align: center;
+}
+.header_icon{
+  position: absolute;
+  top: 85px;
+  right: 11px;
+  opacity: 0.7;
+}
+.header_icon:hover{
+  transform: scale(1.2);
+  opacity: 1;
+}
+/*메뉴*/
+.nav{
+  width: 1320px;
+}
+.nav li a{
+  display: block;
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0px;
+  font-weight: 500;
+}
+.nav li a:hover{
+  color: #e6a725;
+}
+/*icon_top, back버튼 시작*/
+.icon_back{
+  position:fixed; bottom: 130px; right: 40px;
+}
+.icon_back:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: scale(1.2);
+  border-radius: 50%;
+}
+
+.icon_top{position:fixed; bottom:50px; right:50px; display:none;}
+.icon_top:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: scale(1.2);
+  border-radius: 50%;
+}
+/*icon_top 버튼 끝*/
+/*nav 끝*/
+#content{
+  margin-top: 265px;/*헤더 높이*/
+}
+.content_inner{
+  width: 1320px;
+  margin: auto;
+  line-height: 24px;
+}
+.box1{
+  padding-top: 72px;
+  padding-bottom: 72px;
+  height: 500px;
+}
+.box1_img{
+  float: left;
+  width: 660px;
+  text-align: center;
+  position: relative;
+}
+.box1_img .box1_img3, .box1_img1{
+  position: absolute;
+  top: 0;
+  left: 79px;
+  display: none;
+}
+.box1_img img{
+  border: 1px solid #494949;
+}
+.box1_text{
+  float: right;
+  width: 547px;
+  height: 500px;
+  margin-right: 113px;
+  padding: 30px 0px 0px 47px;
+  box-sizing: border-box;
+}
+.box1_text h1{
+  font-size: 36px;
+  display: inline-block;
+}
+.box1_text .icon{
+  height: 80px;
+  padding-top: 33px;
+  font-size: 18px; 
+  box-sizing: border-box;
+}
+.box1_text .icon li{
+  float: left;
+}
+.box1_text .icon1{
+  width: 85px;
+  background: url(../images/icon_people.png) no-repeat 0% 50%;
+  padding-left: 43px;
+}
+.box1_text .icon2{
+  background: url(../images/icon_age.png) no-repeat 0% 50%;
+  width: 122px;
+  padding-left: 34px;
+}
+.box1_text .icon3{
+  background: url(../images/icon_clock.png) no-repeat 0% 50%;
+  width: 80px;
+  padding-left: 36px;
+}
+.bor{
+  height: 220px;
+  border-top: 2px solid #5a5a5a;
+  border-bottom: 2px solid #5a5a5a;
+  padding-top: 34px;
+  box-sizing: border-box;
+}
+.bor .bor_1, .bor_2, .bor_3{
+ width: 500px;
+ display: inline-block;
+ font-size: 24px;
+ margin-bottom: 28px;
+}
+.bor_1 li{
+  float: left;
+  opacity: 0.5;
+}
+.bor_2 li{
+  float: left;
+}
+.bor_3 li{
+  float: left;
+}
+.bor .li1{
+  margin-right: 50px;
+}
+.bor .bor_2 .y{
+  margin-left: 30px;
+  color: #e6a725;
+}
+.bor_butt1 a{
+  display: block;
+  font-size: 30px;
+  height: 32px;
+  width: 31px;
+  background: #bfbfbf;
+  text-align: center;
+  color: #000;
+}
+.bor_butt2 a{
+  display: block;
+  font-size: 20px;
+  height: 32px;
+  width: 33px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  padding-top: 2px;
+  box-sizing: border-box;
+}
+.bor_butt1 a:hover{
+  background: #858585;
+}
+.text2_l{
+  float: left;
+  padding-top: 63px;
+}
+.text2_l li{
+  float: left;
+}
+.text2_r ul{
+  padding-left: 246px;
+  padding-top: 23px;
+}
+.text2_r ul li{
+  float: left;
+}
+.text2_l .li1{
+  margin-right: 50px;
+}
+.text2_r .heart{
+  float: left;
+  display: block;
+  width: 68px;
+  height: 49px;
+  background: #fff url(../images/icon_heart.png) no-repeat 50% 50%;
+}
+.text2_r .text2_text{
+  float: right;
+  color: #000;
+  background: #fff;
+  text-align: center;
+  width: 179px;
+  height: 49px;
+  display: block;
+  box-sizing: border-box;
+  border-left: 1px solid #000;
+  padding-top: 12px;
+}
+.text2_r .text2_text:hover{
+  background: #5a5a5a;
+  color: #fff;
+}
+.text2_r .heart:hover{
+  background: #5a5a5a url(../images/icon_heart_w.png) no-repeat 50% 50%;
+}
+.text2_r .text2_text2{
+  background-color: #444444;
+  text-align: center;
+  display: block;
+  width: 247px;
+  height: 49px;
+  color: #fff;
+  padding-top: 12px;
+  box-sizing: border-box;
+  border-top: 1px solid #000;
+}
+.text2_r .text2_text2:hover{
+  background-color: #5a5a5a;
+}
+/*box1 끝*/
+.box2{
+  height: 260px;
+  padding-left: 80px;
+}
+.box2 li{
+  float: left;
+  margin-right: 27px;
+}
+.box2 li img{
+  border: 1px solid #494949;
+}
+.box3{
+  text-align: center;
+  height: 8121px;
+}
+/*footer*/
+.footer_bor{
+  border-top: 3px solid #5a5a5a;
+}
+#footer{
+  width: 1320px;
+  height: 317px;
+  margin: auto;
+  position: relative;
+}
+.footer_left{
+  float: left;
+  margin-left: 384px;
+  margin-top: 114px;
+}
+.footer_left li{
+  margin-right: 40px;
+  float: left;
+}
+.footer_right{
+  float: right;
+  margin-top: 114px;
+}
+.footer_right li{
+  float: left;
+  margin-left: 15px;
+}
+#footer p{
+  margin-left: 384px;
+  clear: both;
+  padding-top: 20px;
+  line-height: 40px;
+  font-size: 18px;
+  opacity: 0.7;
+}
+#footer .footer_logo{
+  position: absolute;
+  top: 124px;
+  left: 46px;
+  opacity: 1;
+}
+#footer .footer_left a, .footer_right a{
+  opacity: 0.7;
+}
+#footer a:hover{
+  opacity: 1;
+}
+/*footer 끝*/
